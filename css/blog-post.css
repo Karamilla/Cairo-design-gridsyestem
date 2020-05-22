@@ -10,45 +10,45 @@ p a:hover {
 
 /* grid container */
 
-/* #grid-container {
+#grid-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 100px 300px auto auto 30px;
   grid-template-areas:
-  "nav"
-  "hd"
-  "post"
-  "post-suggestions"
-  "ft";
-} */
+    "nav"
+    "hd"
+    "post"
+    "post-suggestions"
+    "ft";
+}
 
-/* @media (min-width: 600px) {
+@media (min-width: 600px) {
   #grid-container {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 60px auto 30px;
     grid-template-areas:
-    "nav nav"
-    "hd post"
-    "ft ft";
+      "nav nav"
+      "hd post"
+      "ft ft";
   }
-} */
+}
 
 /* content */
 
-/* header {
+header {
   grid-area: hd;
   width: 100%;
   height: auto;
-  background-image: url("../img/neon-shop-ad.jpg");
+  background-image: url("../img/11.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-} */
+}
 
-/* #post {
+#post {
   padding: 0 30px 20px 30px;
 }
 
@@ -57,24 +57,24 @@ p a:hover {
     overflow: scroll;
     padding: 0 30px 0px 30px;
   }
-} */
+}
 
-/* footer {
+footer {
   grid-area: ft;
   height: 30px;
   color: #222;
   padding-bottom: 10px;
   text-align: center;
-} */
+}
 
 /* author info */
 
-/* .meta {
+.meta {
   text-align: center;
 }
 
 .post-info {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   letter-spacing: 0.05em;
   margin: 0.2em 0;
   font-size: 1.2em;
@@ -132,23 +132,23 @@ p a:hover {
   .author-info-text {
     width: 60%;
   }
-} */
+}
 
 /* blog image */
 
-/* .blog-article img {
+.blog-article img {
   width: 100%;
   height: auto;
   object-fit: contain;
-} */
+}
 
 /* social links */
 
-/* .social-sharing {
+.social-sharing {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
-} */
+}
 
 /* post suggestion */
 
